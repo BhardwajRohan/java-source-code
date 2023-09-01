@@ -8,7 +8,7 @@ public class LargestNum_06 {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        //Using Math.max function to calculate largest num; 
+        //Using Math.max function to calculate largest num;
         int max = Math.max(c,(Math.max(a,b)));
         System.out.println("Max = " + max);
 
